@@ -161,15 +161,17 @@ nav ul {
 #logo-img {
     display: flex;
     height: 100%;
-    background: #111;
+    background: #202125;
     padding: 0 32px;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     transition: 0.4s;
 }
 
 #logo-img img {
-    height: 100px;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 #logo-img:hover {
